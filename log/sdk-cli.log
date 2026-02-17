@@ -1,0 +1,1125 @@
+2026-02-16T19:25:23.684Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"appium:platformName":"Android","appium:deviceName":"Pixel 4","appium:platformVersion":"12.0","appium:automationName":"UiAutomator2","appium:app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","appium:autoGrantPermissions":true,"wdioService":"9.23.3"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-16T19:25:23.686Z CLI info     Should start debug utility: undefined
+2026-02-16T19:25:23.687Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  Starting testhub from 23375:0
+2026-02-16T19:25:23.688Z CLI info  [alvinalonzo_azyPs7]   [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-16T19:25:23.690Z CLI info  [alvinalonzo_azyPs7]   [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-16T19:25:24.009Z CLI info  [alvinalonzo_azyPs7]   [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-16T19:25:24.010Z CLI info  [alvinalonzo_azyPs7]   [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-16T19:25:24.011Z CLI info  [alvinalonzo_azyPs7]   [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-16T19:25:24.692Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  startBuild: response=dcnf6fwjh53thhllizw50vxzchi94ny0wmyeuo8p
+2026-02-16T19:25:24.694Z CLI info  [alvinalonzo_azyPs7]  [dcnf6fwjh53thhllizw50vxzchi94ny0wmyeuo8p]  [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:25:27.173Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [dcnf6fwjh53thhllizw50vxzchi94ny0wmyeuo8p]  [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  Driver initialized as primary driver: platformIndex=0
+2026-02-16T19:25:34.762Z CLI info  [alvinalonzo_azyPs7]  [dcnf6fwjh53thhllizw50vxzchi94ny0wmyeuo8p]  [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-16T19:25:34.766Z CLI info  [alvinalonzo_azyPs7]  [dcnf6fwjh53thhllizw50vxzchi94ny0wmyeuo8p]  [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-16T19:25:35.242Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [dcnf6fwjh53thhllizw50vxzchi94ny0wmyeuo8p]  [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  stopBuild: dcnf6fwjh53thhllizw50vxzchi94ny0wmyeuo8p request={"finished_at":"2026-02-16T19:25:34.763Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-16T19:25:35.243Z CLI info  [alvinalonzo_azyPs7]  [dcnf6fwjh53thhllizw50vxzchi94ny0wmyeuo8p]  [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:25:35.441Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [dcnf6fwjh53thhllizw50vxzchi94ny0wmyeuo8p]  [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  Visit https://automation.browserstack.com/builds/dcnf6fwjh53thhllizw50vxzchi94ny0wmyeuo8p to view build report, insights, and many more debugging information all at one place!
+2026-02-16T19:25:35.446Z CLI info [main]  [alvinalonzo_azyPs7]  [dcnf6fwjh53thhllizw50vxzchi94ny0wmyeuo8p]  [c6ed798a-f1ab-4d2b-9f71-e65961920a9b]  Received graceful signal termination, performing cleanup
+2026-02-16T19:30:30.792Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","deviceName":"Pixel 4","platformVersion":"12.0","automationName":"UiAutomator2","app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","autoGrantPermissions":true,"browserstack.wdioService":"9.23.3"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-16T19:30:30.794Z CLI info     Should start debug utility: undefined
+2026-02-16T19:30:30.795Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [530349f0-7c70-49a0-8968-c92e327423fd]  Starting testhub from 23770:0
+2026-02-16T19:30:30.796Z CLI info  [alvinalonzo_azyPs7]   [530349f0-7c70-49a0-8968-c92e327423fd]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-16T19:30:30.799Z CLI info  [alvinalonzo_azyPs7]   [530349f0-7c70-49a0-8968-c92e327423fd]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-16T19:30:31.137Z CLI info  [alvinalonzo_azyPs7]   [530349f0-7c70-49a0-8968-c92e327423fd]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-16T19:30:31.137Z CLI info  [alvinalonzo_azyPs7]   [530349f0-7c70-49a0-8968-c92e327423fd]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-16T19:30:31.138Z CLI info  [alvinalonzo_azyPs7]   [530349f0-7c70-49a0-8968-c92e327423fd]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-16T19:30:31.537Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [530349f0-7c70-49a0-8968-c92e327423fd]  startBuild: response=zewduhbldtp90zf0otytrtkfyrarmnv7djsxqjju
+2026-02-16T19:30:31.539Z CLI info  [alvinalonzo_azyPs7]  [zewduhbldtp90zf0otytrtkfyrarmnv7djsxqjju]  [530349f0-7c70-49a0-8968-c92e327423fd]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:30:33.645Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [zewduhbldtp90zf0otytrtkfyrarmnv7djsxqjju]  [530349f0-7c70-49a0-8968-c92e327423fd]  Driver initialized as primary driver: platformIndex=0
+2026-02-16T19:30:34.322Z CLI info  [alvinalonzo_azyPs7]  [zewduhbldtp90zf0otytrtkfyrarmnv7djsxqjju]  [530349f0-7c70-49a0-8968-c92e327423fd]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-16T19:30:34.327Z CLI info  [alvinalonzo_azyPs7]  [zewduhbldtp90zf0otytrtkfyrarmnv7djsxqjju]  [530349f0-7c70-49a0-8968-c92e327423fd]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-16T19:30:34.640Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [zewduhbldtp90zf0otytrtkfyrarmnv7djsxqjju]  [530349f0-7c70-49a0-8968-c92e327423fd]  stopBuild: zewduhbldtp90zf0otytrtkfyrarmnv7djsxqjju request={"finished_at":"2026-02-16T19:30:34.324Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-16T19:30:34.641Z CLI info  [alvinalonzo_azyPs7]  [zewduhbldtp90zf0otytrtkfyrarmnv7djsxqjju]  [530349f0-7c70-49a0-8968-c92e327423fd]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:30:34.823Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [zewduhbldtp90zf0otytrtkfyrarmnv7djsxqjju]  [530349f0-7c70-49a0-8968-c92e327423fd]  Visit https://automation.browserstack.com/builds/zewduhbldtp90zf0otytrtkfyrarmnv7djsxqjju to view build report, insights, and many more debugging information all at one place!
+2026-02-16T19:30:34.827Z CLI info [main]  [alvinalonzo_azyPs7]  [zewduhbldtp90zf0otytrtkfyrarmnv7djsxqjju]  [530349f0-7c70-49a0-8968-c92e327423fd]  Received graceful signal termination, performing cleanup
+2026-02-16T19:35:32.460Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","deviceName":"Pixel 4","platformVersion":"12.0","automationName":"UiAutomator2","app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","autoGrantPermissions":true,"browserstack.wdioService":"9.23.3"}],"isNonBstackA11yWDIO":false,"platformName":"Android","deviceName":"Pixel 4","platformVersion":"12.0","automationName":"UiAutomator2","app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","autoGrantPermissions":true,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-16T19:35:32.462Z CLI info     Should start debug utility: undefined
+2026-02-16T19:35:32.463Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [4ac70405-ed99-460a-aea0-2990c7ce7613]  Starting testhub from 24213:0
+2026-02-16T19:35:32.464Z CLI info  [alvinalonzo_azyPs7]   [4ac70405-ed99-460a-aea0-2990c7ce7613]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-16T19:35:32.467Z CLI info  [alvinalonzo_azyPs7]   [4ac70405-ed99-460a-aea0-2990c7ce7613]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-16T19:35:32.784Z CLI info  [alvinalonzo_azyPs7]   [4ac70405-ed99-460a-aea0-2990c7ce7613]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-16T19:35:32.785Z CLI info  [alvinalonzo_azyPs7]   [4ac70405-ed99-460a-aea0-2990c7ce7613]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-16T19:35:32.786Z CLI info  [alvinalonzo_azyPs7]   [4ac70405-ed99-460a-aea0-2990c7ce7613]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-16T19:35:33.482Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [4ac70405-ed99-460a-aea0-2990c7ce7613]  startBuild: response=bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o
+2026-02-16T19:35:33.485Z CLI info  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:35:33.682Z CLI info  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-16T19:35:33.841Z CLI error [percy:percy]  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  Percy unable to fetch project token: [object Object]
+2026-02-16T19:35:33.841Z CLI error  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  error invoking callback for eventName: {}
+2026-02-16T19:35:33.841Z CLI error  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-02-16T19:35:33.842Z CLI info [appautomate:service]  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  Using app: bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105
+2026-02-16T19:35:42.015Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  Driver initialized as primary driver: platformIndex=0
+2026-02-16T19:35:42.677Z CLI info  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-16T19:35:42.681Z CLI info  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-16T19:35:43.057Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  stopBuild: bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o request={"finished_at":"2026-02-16T19:35:42.678Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-16T19:35:43.058Z CLI info  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:35:43.240Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  Visit https://automation.browserstack.com/builds/bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o to view build report, insights, and many more debugging information all at one place!
+2026-02-16T19:35:43.248Z CLI info [main]  [alvinalonzo_azyPs7]  [bxxo9bc9lewfcqxsykllwmkcb5lksqo6numrnj6o]  [4ac70405-ed99-460a-aea0-2990c7ce7613]  Received graceful signal termination, performing cleanup
+2026-02-16T19:39:35.872Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","deviceName":"Pixel 4","platformVersion":"12.0","automationName":"UiAutomator2","app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","autoGrantPermissions":true,"browserstack.wdioService":"9.23.3"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-16T19:39:35.874Z CLI info     Should start debug utility: undefined
+2026-02-16T19:39:35.876Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  Starting testhub from 24570:0
+2026-02-16T19:39:35.877Z CLI info  [alvinalonzo_azyPs7]   [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-16T19:39:35.880Z CLI info  [alvinalonzo_azyPs7]   [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-16T19:39:36.316Z CLI info  [alvinalonzo_azyPs7]   [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-16T19:39:36.317Z CLI info  [alvinalonzo_azyPs7]   [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-16T19:39:36.318Z CLI info  [alvinalonzo_azyPs7]   [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-16T19:39:36.702Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  startBuild: response=bjtqbevvli8wxsqq7sjcqj8t3nnhyjcw2rlwkuqa
+2026-02-16T19:39:36.705Z CLI info  [alvinalonzo_azyPs7]  [bjtqbevvli8wxsqq7sjcqj8t3nnhyjcw2rlwkuqa]  [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:39:39.136Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [bjtqbevvli8wxsqq7sjcqj8t3nnhyjcw2rlwkuqa]  [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  Driver initialized as primary driver: platformIndex=0
+2026-02-16T19:39:39.808Z CLI info  [alvinalonzo_azyPs7]  [bjtqbevvli8wxsqq7sjcqj8t3nnhyjcw2rlwkuqa]  [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-16T19:39:39.813Z CLI info  [alvinalonzo_azyPs7]  [bjtqbevvli8wxsqq7sjcqj8t3nnhyjcw2rlwkuqa]  [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-16T19:39:40.128Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [bjtqbevvli8wxsqq7sjcqj8t3nnhyjcw2rlwkuqa]  [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  stopBuild: bjtqbevvli8wxsqq7sjcqj8t3nnhyjcw2rlwkuqa request={"finished_at":"2026-02-16T19:39:39.810Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-16T19:39:40.130Z CLI info  [alvinalonzo_azyPs7]  [bjtqbevvli8wxsqq7sjcqj8t3nnhyjcw2rlwkuqa]  [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:39:40.328Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [bjtqbevvli8wxsqq7sjcqj8t3nnhyjcw2rlwkuqa]  [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  Visit https://automation.browserstack.com/builds/bjtqbevvli8wxsqq7sjcqj8t3nnhyjcw2rlwkuqa to view build report, insights, and many more debugging information all at one place!
+2026-02-16T19:39:40.337Z CLI info [main]  [alvinalonzo_azyPs7]  [bjtqbevvli8wxsqq7sjcqj8t3nnhyjcw2rlwkuqa]  [e4ef2748-13c6-4538-99a0-bdf91ab1d389]  Received graceful signal termination, performing cleanup
+2026-02-16T19:41:37.571Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:deviceName":"Pixel 4","appium:platformVersion":"12.0","appium:automationName":"UiAutomator2","appium:app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","appium:autoGrantPermissions":true,"wdioService":"9.23.3"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-16T19:41:37.573Z CLI info     Should start debug utility: undefined
+2026-02-16T19:41:37.574Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [3f2e6221-4641-4304-bc62-2d543f3fb33a]  Starting testhub from 24752:0
+2026-02-16T19:41:37.575Z CLI info  [alvinalonzo_azyPs7]   [3f2e6221-4641-4304-bc62-2d543f3fb33a]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-16T19:41:37.578Z CLI info  [alvinalonzo_azyPs7]   [3f2e6221-4641-4304-bc62-2d543f3fb33a]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-16T19:41:37.993Z CLI info  [alvinalonzo_azyPs7]   [3f2e6221-4641-4304-bc62-2d543f3fb33a]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-16T19:41:37.994Z CLI info  [alvinalonzo_azyPs7]   [3f2e6221-4641-4304-bc62-2d543f3fb33a]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-16T19:41:37.995Z CLI info  [alvinalonzo_azyPs7]   [3f2e6221-4641-4304-bc62-2d543f3fb33a]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-16T19:41:38.537Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [3f2e6221-4641-4304-bc62-2d543f3fb33a]  startBuild: response=vntgt9sdwchcclmbmvczwmne0ecv5jhjzyj9cakf
+2026-02-16T19:41:38.540Z CLI info  [alvinalonzo_azyPs7]  [vntgt9sdwchcclmbmvczwmne0ecv5jhjzyj9cakf]  [3f2e6221-4641-4304-bc62-2d543f3fb33a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:41:40.578Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [vntgt9sdwchcclmbmvczwmne0ecv5jhjzyj9cakf]  [3f2e6221-4641-4304-bc62-2d543f3fb33a]  Driver initialized as primary driver: platformIndex=0
+2026-02-16T19:41:48.297Z CLI info  [alvinalonzo_azyPs7]  [vntgt9sdwchcclmbmvczwmne0ecv5jhjzyj9cakf]  [3f2e6221-4641-4304-bc62-2d543f3fb33a]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-16T19:41:48.302Z CLI info  [alvinalonzo_azyPs7]  [vntgt9sdwchcclmbmvczwmne0ecv5jhjzyj9cakf]  [3f2e6221-4641-4304-bc62-2d543f3fb33a]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-16T19:41:48.605Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [vntgt9sdwchcclmbmvczwmne0ecv5jhjzyj9cakf]  [3f2e6221-4641-4304-bc62-2d543f3fb33a]  stopBuild: vntgt9sdwchcclmbmvczwmne0ecv5jhjzyj9cakf request={"finished_at":"2026-02-16T19:41:48.298Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-16T19:41:48.607Z CLI info  [alvinalonzo_azyPs7]  [vntgt9sdwchcclmbmvczwmne0ecv5jhjzyj9cakf]  [3f2e6221-4641-4304-bc62-2d543f3fb33a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:41:48.836Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [vntgt9sdwchcclmbmvczwmne0ecv5jhjzyj9cakf]  [3f2e6221-4641-4304-bc62-2d543f3fb33a]  Visit https://automation.browserstack.com/builds/vntgt9sdwchcclmbmvczwmne0ecv5jhjzyj9cakf to view build report, insights, and many more debugging information all at one place!
+2026-02-16T19:41:48.841Z CLI info [main]  [alvinalonzo_azyPs7]  [vntgt9sdwchcclmbmvczwmne0ecv5jhjzyj9cakf]  [3f2e6221-4641-4304-bc62-2d543f3fb33a]  Received graceful signal termination, performing cleanup
+2026-02-16T19:45:34.802Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:platformVersion":"12.0","appium:automationName":"UiAutomator2","appium:app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","appium:autoGrantPermissions":true,"wdioService":"9.23.3"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-16T19:45:34.804Z CLI info     Should start debug utility: undefined
+2026-02-16T19:45:34.805Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  Starting testhub from 25072:0
+2026-02-16T19:45:34.806Z CLI info  [alvinalonzo_azyPs7]   [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-16T19:45:34.808Z CLI info  [alvinalonzo_azyPs7]   [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-16T19:45:35.110Z CLI info  [alvinalonzo_azyPs7]   [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-16T19:45:35.111Z CLI info  [alvinalonzo_azyPs7]   [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-16T19:45:35.112Z CLI info  [alvinalonzo_azyPs7]   [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-16T19:45:35.406Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  startBuild: response=wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug
+2026-02-16T19:45:35.408Z CLI info  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:45:37.507Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  Driver initialized as primary driver: platformIndex=0
+2026-02-16T19:45:54.243Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'ea9b58ae-ffe6-4837-bbf2-9b3c9558ac85',
+    integrations: { browserstack: [Object] }
+  }
+} to 25072:0
+2026-02-16T19:45:54.247Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T19:45:55.411Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'ea9b58ae-ffe6-4837-bbf2-9b3c9558ac85',
+      integrations: [Object]
+    }
+  }
+] to 25072:0
+2026-02-16T19:45:55.412Z CLI info  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-16T19:45:56.652Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"ea9b58ae-ffe6-4837-bbf2-9b3c9558ac85","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Skip tutorial","test_name":"Skip tutorial","test_code":"async () => {\n        // await $('//*[@text=\"SKIP\"]').click()\n        await addNoteScreen.skipBtn.click();\n        await expect(addNoteScreen.addNoteBtn).toBeDisplayed()\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Skip tutorial","test_scopes":["Add Notes"],"test_started_at":"2026-02-16T19:45:54.217Z","automate_session_name":"Add Notes - Skip tutorial","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-16T19:45:56.649Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-16T19:45:56.654Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T19:45:56.662Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'f5e38db4-ddd6-472b-adbd-d0f15f69d0ae',
+    integrations: { browserstack: [Object] }
+  }
+} to 25072:0
+2026-02-16T19:45:56.664Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T19:45:57.412Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'f5e38db4-ddd6-472b-adbd-d0f15f69d0ae',
+      integrations: [Object]
+    }
+  }
+] to 25072:0
+2026-02-16T19:45:57.413Z CLI info  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-16T19:46:05.684Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"f5e38db4-ddd6-472b-adbd-d0f15f69d0ae","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - add a note, save changes & verify note","test_name":"add a note, save changes & verify note","test_code":"async () => {\n        await addNoteScreen.addNoteBtn.click()\n        await addNoteScreen.noteTypeBtn.click();\n        await expect(addNoteScreen.editText).toBeDisplayed();\n\n        await addNoteScreen.titleTextField.setValue(\"Fav Anime List\");\n        \n        //add Note value\n\n        await addNoteScreen.noteTextField.setValue(\"Naruto\\nOnePiece\\nAOT\");\n        await driver.back();\n\n        await driver.back();\n        await expect(addNoteScreen.editBtn).toBeDisplayed();\n         await driver.back();\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - add a note, save changes & verify note","test_scopes":["Add Notes"],"test_started_at":"2026-02-16T19:45:56.652Z","automate_session_name":"Add Notes - add a note, save changes & verify note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-16T19:46:05.678Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-16T19:46:05.684Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T19:46:05.696Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '4020143e-4d5b-468a-b100-20cd27bf7ce4',
+    integrations: { browserstack: [Object] }
+  }
+} to 25072:0
+2026-02-16T19:46:05.697Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T19:46:07.413Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '4020143e-4d5b-468a-b100-20cd27bf7ce4',
+      integrations: [Object]
+    }
+  }
+] to 25072:0
+2026-02-16T19:46:07.413Z CLI info  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-16T19:46:13.920Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"4020143e-4d5b-468a-b100-20cd27bf7ce4","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Delete Note","test_name":"Delete Note","test_code":"async () => {\n        //Add Note (Use the above)\n\n        //Delete Note\n        const noteTitle = await addNoteScreen.noteTitle.getText();\n        await addNoteScreen.noteTitle.click();\n\n        await addNoteScreen.moreBtn.click();\n        await addNoteScreen.deleteBtn.click();\n        await driver.acceptAlert();\n\n\n        //Check Note in Trash Can\n        await addNoteScreen.menuBtn.click();\n        await addNoteScreen.trashCanBtn.click();\n        await expect(addNoteScreen.trashCanNotes).toHaveText(noteTitle);\n\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Delete Note","test_scopes":["Add Notes"],"test_started_at":"2026-02-16T19:46:05.685Z","automate_session_name":"Add Notes - Delete Note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-16T19:46:13.917Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-16T19:46:13.921Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T19:46:15.812Z CLI info  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-16T19:46:15.818Z CLI info  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-16T19:46:16.173Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  stopBuild: wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug request={"finished_at":"2026-02-16T19:46:15.815Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-16T19:46:16.175Z CLI info  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:46:16.366Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  Visit https://automation.browserstack.com/builds/wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug to view build report, insights, and many more debugging information all at one place!
+2026-02-16T19:46:16.370Z CLI info [main]  [alvinalonzo_azyPs7]  [wicf9mtjiudbo8139xvltvonzjtnxha4cph8s0ug]  [c8fd91d9-0eef-45d2-80b5-0dbf78133237]  Received graceful signal termination, performing cleanup
+2026-02-16T19:59:53.938Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:platformVersion":"12.0","appium:automationName":"UiAutomator2","appium:app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","appium:autoGrantPermissions":true,"wdioService":"9.23.3"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-16T19:59:53.940Z CLI info     Should start debug utility: undefined
+2026-02-16T19:59:53.941Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  Starting testhub from 26087:0
+2026-02-16T19:59:53.942Z CLI info  [alvinalonzo_azyPs7]   [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-16T19:59:53.944Z CLI info  [alvinalonzo_azyPs7]   [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-16T19:59:54.390Z CLI info  [alvinalonzo_azyPs7]   [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-16T19:59:54.391Z CLI info  [alvinalonzo_azyPs7]   [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-16T19:59:54.392Z CLI info  [alvinalonzo_azyPs7]   [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-16T19:59:54.597Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  startBuild: response=tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k
+2026-02-16T19:59:54.599Z CLI info  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T19:59:56.828Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  Driver initialized as primary driver: platformIndex=0
+2026-02-16T20:00:14.809Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'f9f6732c-985f-4aca-99ad-41adbb339f7d',
+    integrations: { browserstack: [Object] }
+  }
+} to 26087:0
+2026-02-16T20:00:14.812Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T20:00:16.607Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'f9f6732c-985f-4aca-99ad-41adbb339f7d',
+      integrations: [Object]
+    }
+  }
+] to 26087:0
+2026-02-16T20:00:16.608Z CLI info  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-16T20:00:17.239Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"f9f6732c-985f-4aca-99ad-41adbb339f7d","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Skip tutorial","test_name":"Skip tutorial","test_code":"async () => {\n        // await $('//*[@text=\"SKIP\"]').click()\n        await addNoteScreen.skipBtn.click();\n        await expect(addNoteScreen.addNoteBtn).toBeDisplayed()\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Skip tutorial","test_scopes":["Add Notes"],"test_started_at":"2026-02-16T20:00:14.787Z","automate_session_name":"Add Notes - Skip tutorial","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-16T20:00:17.229Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-16T20:00:17.239Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T20:00:17.253Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '539ff002-f1a3-4fd5-aecf-2d077573130e',
+    integrations: { browserstack: [Object] }
+  }
+} to 26087:0
+2026-02-16T20:00:17.255Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T20:00:18.607Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '539ff002-f1a3-4fd5-aecf-2d077573130e',
+      integrations: [Object]
+    }
+  }
+] to 26087:0
+2026-02-16T20:00:18.608Z CLI info  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-16T20:00:25.549Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"539ff002-f1a3-4fd5-aecf-2d077573130e","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - add a note, save changes & verify note","test_name":"add a note, save changes & verify note","test_code":"async () => {\n        await addNoteScreen.addNoteBtn.click()\n        await addNoteScreen.noteTypeBtn.click();\n        await expect(addNoteScreen.editText).toBeDisplayed();\n\n        await addNoteScreen.titleTextField.setValue(\"Fav Anime List\");\n        \n        //add Note value\n\n        await addNoteScreen.noteTextField.setValue(\"Naruto\\nOnePiece\\nAOT\");\n        await driver.back();\n\n        await driver.back();\n        await expect(addNoteScreen.editBtn).toBeDisplayed();\n         await driver.back();\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - add a note, save changes & verify note","test_scopes":["Add Notes"],"test_started_at":"2026-02-16T20:00:17.240Z","automate_session_name":"Add Notes - add a note, save changes & verify note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-16T20:00:25.544Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-16T20:00:25.549Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T20:00:25.559Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'f8b3497b-1dc5-4eec-b423-64b1cabaf37b',
+    integrations: { browserstack: [Object] }
+  }
+} to 26087:0
+2026-02-16T20:00:25.560Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T20:00:26.609Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'f8b3497b-1dc5-4eec-b423-64b1cabaf37b',
+      integrations: [Object]
+    }
+  }
+] to 26087:0
+2026-02-16T20:00:26.610Z CLI info  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-16T20:00:33.775Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"f8b3497b-1dc5-4eec-b423-64b1cabaf37b","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Delete Note","test_name":"Delete Note","test_code":"async () => {\n        //Add Note (Use the above)\n\n        //Delete Note\n        const noteTitle = await addNoteScreen.noteTitle.getText();\n        await addNoteScreen.noteTitle.click();\n\n        await addNoteScreen.moreBtn.click();\n        await addNoteScreen.deleteBtn.click();\n        await driver.acceptAlert();\n\n\n        //Check Note in Trash Can\n        await addNoteScreen.menuBtn.click();\n        await addNoteScreen.trashCanBtn.click();\n        await expect(addNoteScreen.trashCanNotes).toHaveText(noteTitle);\n\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Delete Note","test_scopes":["Add Notes"],"test_started_at":"2026-02-16T20:00:25.550Z","automate_session_name":"Add Notes - Delete Note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-16T20:00:33.772Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-16T20:00:33.776Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T20:00:35.473Z CLI info  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-16T20:00:35.478Z CLI info  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-16T20:00:35.825Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  stopBuild: tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k request={"finished_at":"2026-02-16T20:00:35.475Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-16T20:00:35.826Z CLI info  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T20:00:36.014Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  Visit https://automation.browserstack.com/builds/tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k to view build report, insights, and many more debugging information all at one place!
+2026-02-16T20:00:36.020Z CLI info [main]  [alvinalonzo_azyPs7]  [tkrmf5otnrpu0vcgba1pfoo09ipl3rfrlbxgbc1k]  [117c0c8d-326f-4be6-ad69-fbe7b2ef0bca]  Received graceful signal termination, performing cleanup
+2026-02-16T20:18:50.863Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:deviceName":"Google Pixel 5","appium:platformVersion":"12.0","appium:automationName":"UiAutomator2","appium:app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","appium:autoGrantPermissions":true,"wdioService":"9.23.3"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-16T20:18:50.865Z CLI info     Should start debug utility: undefined
+2026-02-16T20:18:50.866Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [fa096434-3f5d-4126-b778-1c9e8d0380dd]  Starting testhub from 27617:0
+2026-02-16T20:18:50.867Z CLI info  [alvinalonzo_azyPs7]   [fa096434-3f5d-4126-b778-1c9e8d0380dd]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-16T20:18:50.870Z CLI info  [alvinalonzo_azyPs7]   [fa096434-3f5d-4126-b778-1c9e8d0380dd]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-16T20:18:51.278Z CLI info  [alvinalonzo_azyPs7]   [fa096434-3f5d-4126-b778-1c9e8d0380dd]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-16T20:18:51.279Z CLI info  [alvinalonzo_azyPs7]   [fa096434-3f5d-4126-b778-1c9e8d0380dd]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-16T20:18:51.280Z CLI info  [alvinalonzo_azyPs7]   [fa096434-3f5d-4126-b778-1c9e8d0380dd]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-16T20:18:51.822Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [fa096434-3f5d-4126-b778-1c9e8d0380dd]  startBuild: response=mlyipnmnwfmr2nhwlaamfvno3negrmwtc4ldo2ii
+2026-02-16T20:18:51.824Z CLI info  [alvinalonzo_azyPs7]  [mlyipnmnwfmr2nhwlaamfvno3negrmwtc4ldo2ii]  [fa096434-3f5d-4126-b778-1c9e8d0380dd]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T20:18:54.006Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [mlyipnmnwfmr2nhwlaamfvno3negrmwtc4ldo2ii]  [fa096434-3f5d-4126-b778-1c9e8d0380dd]  Driver initialized as primary driver: platformIndex=0
+2026-02-16T20:19:01.722Z CLI info  [alvinalonzo_azyPs7]  [mlyipnmnwfmr2nhwlaamfvno3negrmwtc4ldo2ii]  [fa096434-3f5d-4126-b778-1c9e8d0380dd]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-16T20:19:01.729Z CLI info  [alvinalonzo_azyPs7]  [mlyipnmnwfmr2nhwlaamfvno3negrmwtc4ldo2ii]  [fa096434-3f5d-4126-b778-1c9e8d0380dd]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-16T20:19:02.363Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [mlyipnmnwfmr2nhwlaamfvno3negrmwtc4ldo2ii]  [fa096434-3f5d-4126-b778-1c9e8d0380dd]  stopBuild: mlyipnmnwfmr2nhwlaamfvno3negrmwtc4ldo2ii request={"finished_at":"2026-02-16T20:19:01.725Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-16T20:19:02.364Z CLI info  [alvinalonzo_azyPs7]  [mlyipnmnwfmr2nhwlaamfvno3negrmwtc4ldo2ii]  [fa096434-3f5d-4126-b778-1c9e8d0380dd]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T20:19:02.549Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [mlyipnmnwfmr2nhwlaamfvno3negrmwtc4ldo2ii]  [fa096434-3f5d-4126-b778-1c9e8d0380dd]  Visit https://automation.browserstack.com/builds/mlyipnmnwfmr2nhwlaamfvno3negrmwtc4ldo2ii to view build report, insights, and many more debugging information all at one place!
+2026-02-16T20:19:02.555Z CLI info [main]  [alvinalonzo_azyPs7]  [mlyipnmnwfmr2nhwlaamfvno3negrmwtc4ldo2ii]  [fa096434-3f5d-4126-b778-1c9e8d0380dd]  Received graceful signal termination, performing cleanup
+2026-02-16T20:20:01.509Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:deviceName":"Google Pixel 5","appium:platformVersion":"11.0","appium:automationName":"UiAutomator2","appium:app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","appium:autoGrantPermissions":true,"wdioService":"9.23.3"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-16T20:20:01.511Z CLI info     Should start debug utility: undefined
+2026-02-16T20:20:01.512Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  Starting testhub from 27687:0
+2026-02-16T20:20:01.513Z CLI info  [alvinalonzo_azyPs7]   [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-16T20:20:01.515Z CLI info  [alvinalonzo_azyPs7]   [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-16T20:20:02.743Z CLI info  [alvinalonzo_azyPs7]   [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-16T20:20:02.744Z CLI info  [alvinalonzo_azyPs7]   [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-16T20:20:02.745Z CLI info  [alvinalonzo_azyPs7]   [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-16T20:20:03.193Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  startBuild: response=ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu
+2026-02-16T20:20:03.194Z CLI info  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T20:20:05.274Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  Driver initialized as primary driver: platformIndex=0
+2026-02-16T20:20:25.763Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '4b477288-b15a-4199-9e23-28ec5cd65007',
+    integrations: { browserstack: [Object] }
+  }
+} to 27687:0
+2026-02-16T20:20:25.766Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T20:20:27.200Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '4b477288-b15a-4199-9e23-28ec5cd65007',
+      integrations: [Object]
+    }
+  }
+] to 27687:0
+2026-02-16T20:20:27.202Z CLI info  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-16T20:20:28.221Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"4b477288-b15a-4199-9e23-28ec5cd65007","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Skip tutorial","test_name":"Skip tutorial","test_code":"async () => {\n        // await $('//*[@text=\"SKIP\"]').click()\n        await addNoteScreen.skipBtn.click();\n        await expect(addNoteScreen.addNoteBtn).toBeDisplayed()\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Skip tutorial","test_scopes":["Add Notes"],"test_started_at":"2026-02-16T20:20:25.738Z","automate_session_name":"Add Notes - Skip tutorial","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-16T20:20:28.217Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-16T20:20:28.223Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T20:20:28.231Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '274f1bb0-3b19-4cf3-8ef0-155187b173ca',
+    integrations: { browserstack: [Object] }
+  }
+} to 27687:0
+2026-02-16T20:20:28.232Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T20:20:29.201Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '274f1bb0-3b19-4cf3-8ef0-155187b173ca',
+      integrations: [Object]
+    }
+  }
+] to 27687:0
+2026-02-16T20:20:29.202Z CLI info  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-16T20:20:36.014Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"274f1bb0-3b19-4cf3-8ef0-155187b173ca","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - add a note, save changes & verify note","test_name":"add a note, save changes & verify note","test_code":"async () => {\n        await addNoteScreen.addNoteBtn.click()\n        await addNoteScreen.noteTypeBtn.click();\n        await expect(addNoteScreen.editText).toBeDisplayed();\n\n        await addNoteScreen.titleTextField.setValue(\"Fav Anime List\");\n        \n        //add Note value\n\n        await addNoteScreen.noteTextField.setValue(\"Naruto\\nOnePiece\\nAOT\");\n        await driver.back();\n\n        await driver.back();\n        await expect(addNoteScreen.editBtn).toBeDisplayed();\n         await driver.back();\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - add a note, save changes & verify note","test_scopes":["Add Notes"],"test_started_at":"2026-02-16T20:20:28.222Z","automate_session_name":"Add Notes - add a note, save changes & verify note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-16T20:20:36.010Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-16T20:20:36.015Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T20:20:36.024Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '186019ef-5800-45c5-80f9-77e8fc35fa07',
+    integrations: { browserstack: [Object] }
+  }
+} to 27687:0
+2026-02-16T20:20:36.025Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T20:20:37.202Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '186019ef-5800-45c5-80f9-77e8fc35fa07',
+      integrations: [Object]
+    }
+  }
+] to 27687:0
+2026-02-16T20:20:37.204Z CLI info  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-16T20:20:43.526Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"186019ef-5800-45c5-80f9-77e8fc35fa07","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Delete Note","test_name":"Delete Note","test_code":"async () => {\n        //Add Note (Use the above)\n\n        //Delete Note\n        const noteTitle = await addNoteScreen.noteTitle.getText();\n        await addNoteScreen.noteTitle.click();\n\n        await addNoteScreen.moreBtn.click();\n        await addNoteScreen.deleteBtn.click();\n        await driver.acceptAlert();\n\n\n        //Check Note in Trash Can\n        await addNoteScreen.menuBtn.click();\n        await addNoteScreen.trashCanBtn.click();\n        await expect(addNoteScreen.trashCanNotes).toHaveText(noteTitle);\n\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Delete Note","test_scopes":["Add Notes"],"test_started_at":"2026-02-16T20:20:36.015Z","automate_session_name":"Add Notes - Delete Note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-16T20:20:43.522Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-16T20:20:43.526Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T20:20:45.218Z CLI info  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-16T20:20:45.222Z CLI info  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-16T20:20:46.568Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  stopBuild: ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu request={"finished_at":"2026-02-16T20:20:45.220Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-16T20:20:46.571Z CLI info  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T20:20:46.748Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  Visit https://automation.browserstack.com/builds/ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu to view build report, insights, and many more debugging information all at one place!
+2026-02-16T20:20:46.752Z CLI info [main]  [alvinalonzo_azyPs7]  [ttlit3cnb3b1zzvt6tpezxauei9o1o1ibu1xavnu]  [a0349b6d-7795-4fea-9ebe-9e8dd916bb83]  Received graceful signal termination, performing cleanup
+2026-02-16T23:56:43.664Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:deviceName":"Google Pixel 5","appium:platformVersion":"11.0","appium:automationName":"UiAutomator2","appium:app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","appium:autoGrantPermissions":true,"wdioService":"9.23.3"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-16T23:56:43.666Z CLI info     Should start debug utility: undefined
+2026-02-16T23:56:43.667Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [2f4820b5-4185-4eda-9572-5adf10259f73]  Starting testhub from 28316:0
+2026-02-16T23:56:43.668Z CLI info  [alvinalonzo_azyPs7]   [2f4820b5-4185-4eda-9572-5adf10259f73]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-16T23:56:43.670Z CLI info  [alvinalonzo_azyPs7]   [2f4820b5-4185-4eda-9572-5adf10259f73]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-16T23:56:44.109Z CLI info  [alvinalonzo_azyPs7]   [2f4820b5-4185-4eda-9572-5adf10259f73]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-16T23:56:44.110Z CLI info  [alvinalonzo_azyPs7]   [2f4820b5-4185-4eda-9572-5adf10259f73]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-16T23:56:44.110Z CLI info  [alvinalonzo_azyPs7]   [2f4820b5-4185-4eda-9572-5adf10259f73]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-16T23:56:44.812Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [2f4820b5-4185-4eda-9572-5adf10259f73]  startBuild: response=ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli
+2026-02-16T23:56:44.814Z CLI info  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T23:56:46.910Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  Driver initialized as primary driver: platformIndex=0
+2026-02-16T23:57:12.459Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '3c92ac61-1084-4ade-a799-5c522b563680',
+    integrations: { browserstack: [Object] }
+  }
+} to 28316:0
+2026-02-16T23:57:12.462Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T23:57:12.823Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '3c92ac61-1084-4ade-a799-5c522b563680',
+      integrations: [Object]
+    }
+  }
+] to 28316:0
+2026-02-16T23:57:12.824Z CLI info  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-16T23:57:14.499Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"3c92ac61-1084-4ade-a799-5c522b563680","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Skip tutorial","test_name":"Skip tutorial","test_code":"async () => {\n        // await $('//*[@text=\"SKIP\"]').click()\n        await addNoteScreen.skipBtn.click();\n        await expect(addNoteScreen.addNoteBtn).toBeDisplayed()\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Skip tutorial","test_scopes":["Add Notes"],"test_started_at":"2026-02-16T23:57:12.438Z","automate_session_name":"Add Notes - Skip tutorial","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-16T23:57:14.495Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-16T23:57:14.501Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T23:57:14.507Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '138b3970-2abf-4eca-9b9b-eac1de5a1f83',
+    integrations: { browserstack: [Object] }
+  }
+} to 28316:0
+2026-02-16T23:57:14.508Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T23:57:14.822Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '138b3970-2abf-4eca-9b9b-eac1de5a1f83',
+      integrations: [Object]
+    }
+  }
+] to 28316:0
+2026-02-16T23:57:14.823Z CLI info  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-16T23:57:22.203Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"138b3970-2abf-4eca-9b9b-eac1de5a1f83","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - add a note, save changes & verify note","test_name":"add a note, save changes & verify note","test_code":"async () => {\n        await addNoteScreen.addNoteBtn.click()\n        await addNoteScreen.noteTypeBtn.click();\n        await expect(addNoteScreen.editText).toBeDisplayed();\n\n        await addNoteScreen.titleTextField.setValue(\"Fav Anime List\");\n        \n        //add Note value\n\n        await addNoteScreen.noteTextField.setValue(\"Naruto\\nOnePiece\\nAOT\");\n        await driver.back();\n\n        await driver.back();\n        await expect(addNoteScreen.editBtn).toBeDisplayed();\n         await driver.back();\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - add a note, save changes & verify note","test_scopes":["Add Notes"],"test_started_at":"2026-02-16T23:57:14.499Z","automate_session_name":"Add Notes - add a note, save changes & verify note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-16T23:57:22.198Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-16T23:57:22.203Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T23:57:22.214Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'e265d066-0ac2-4967-b612-1c86f12db6a4',
+    integrations: { browserstack: [Object] }
+  }
+} to 28316:0
+2026-02-16T23:57:22.215Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T23:57:22.825Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'e265d066-0ac2-4967-b612-1c86f12db6a4',
+      integrations: [Object]
+    }
+  }
+] to 28316:0
+2026-02-16T23:57:22.827Z CLI info  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-16T23:57:29.635Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"e265d066-0ac2-4967-b612-1c86f12db6a4","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Delete Note","test_name":"Delete Note","test_code":"async () => {\n        //Add Note (Use the above)\n\n        //Delete Note\n        const noteTitle = await addNoteScreen.noteTitle.getText();\n        await addNoteScreen.noteTitle.click();\n\n        await addNoteScreen.moreBtn.click();\n        await addNoteScreen.deleteBtn.click();\n        await driver.acceptAlert();\n\n\n        //Check Note in Trash Can\n        await addNoteScreen.menuBtn.click();\n        await addNoteScreen.trashCanBtn.click();\n        await expect(addNoteScreen.trashCanNotes).toHaveText(noteTitle);\n\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Delete Note","test_scopes":["Add Notes"],"test_started_at":"2026-02-16T23:57:22.205Z","automate_session_name":"Add Notes - Delete Note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-16T23:57:29.631Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-16T23:57:29.636Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-16T23:57:31.334Z CLI info  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-16T23:57:31.340Z CLI info  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-16T23:57:31.613Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  stopBuild: ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli request={"finished_at":"2026-02-16T23:57:31.337Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-16T23:57:31.614Z CLI info  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-16T23:57:31.842Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  Visit https://automation.browserstack.com/builds/ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli to view build report, insights, and many more debugging information all at one place!
+2026-02-16T23:57:31.849Z CLI info [main]  [alvinalonzo_azyPs7]  [ixcj5ewneskpz5uw4yqyn1b5ryv6wxfpxvgfbzli]  [2f4820b5-4185-4eda-9572-5adf10259f73]  Received graceful signal termination, performing cleanup
+2026-02-17T00:01:51.569Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:deviceName":"Google Pixel 5","appium:platformVersion":"11.0","appium:automationName":"UiAutomator2","appium:app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","appium:autoGrantPermissions":true,"wdioService":"9.23.3"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-17T00:01:51.571Z CLI info     Should start debug utility: undefined
+2026-02-17T00:01:51.573Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  Starting testhub from 28462:0
+2026-02-17T00:01:51.573Z CLI info  [alvinalonzo_azyPs7]   [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-17T00:01:51.576Z CLI info  [alvinalonzo_azyPs7]   [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-17T00:01:52.144Z CLI info  [alvinalonzo_azyPs7]   [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-17T00:01:52.145Z CLI info  [alvinalonzo_azyPs7]   [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-17T00:01:52.145Z CLI info  [alvinalonzo_azyPs7]   [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-17T00:01:52.423Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  startBuild: response=i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx
+2026-02-17T00:01:52.424Z CLI info  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-17T00:01:54.521Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  Driver initialized as primary driver: platformIndex=0
+2026-02-17T00:02:14.792Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'cac832a7-40ef-48cb-b21b-cb04d6cee58c',
+    integrations: { browserstack: [Object] }
+  }
+} to 28462:0
+2026-02-17T00:02:14.794Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:02:16.431Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'cac832a7-40ef-48cb-b21b-cb04d6cee58c',
+      integrations: [Object]
+    }
+  }
+] to 28462:0
+2026-02-17T00:02:16.432Z CLI info  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-17T00:02:16.956Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"cac832a7-40ef-48cb-b21b-cb04d6cee58c","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Skip tutorial","test_name":"Skip tutorial","test_code":"async () => {\n        // await $('//*[@text=\"SKIP\"]').click()\n        await addNoteScreen.skipBtn.click();\n        await expect(addNoteScreen.addNoteBtn).toBeDisplayed()\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Skip tutorial","test_scopes":["Add Notes"],"test_started_at":"2026-02-17T00:02:14.772Z","automate_session_name":"Add Notes - Skip tutorial","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-17T00:02:16.952Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-17T00:02:16.956Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:02:16.965Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '2376726f-addf-4f14-927c-124ffb61222f',
+    integrations: { browserstack: [Object] }
+  }
+} to 28462:0
+2026-02-17T00:02:16.966Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:02:18.432Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '2376726f-addf-4f14-927c-124ffb61222f',
+      integrations: [Object]
+    }
+  }
+] to 28462:0
+2026-02-17T00:02:18.433Z CLI info  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-17T00:02:25.269Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"2376726f-addf-4f14-927c-124ffb61222f","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - add a note, save changes & verify note","test_name":"add a note, save changes & verify note","test_code":"async () => {\n        await addNoteScreen.addNoteBtn.click()\n        await addNoteScreen.noteTypeBtn.click();\n        await expect(addNoteScreen.editText).toBeDisplayed();\n\n        await addNoteScreen.titleTextField.setValue(\"Fav Anime List\");\n        \n        //add Note value\n\n        await addNoteScreen.noteTextField.setValue(\"Naruto\\nOnePiece\\nAOT\");\n        await driver.back();\n\n        await driver.back();\n        await expect(addNoteScreen.editBtn).toBeDisplayed();\n         await driver.back();\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - add a note, save changes & verify note","test_scopes":["Add Notes"],"test_started_at":"2026-02-17T00:02:16.956Z","automate_session_name":"Add Notes - add a note, save changes & verify note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-17T00:02:25.264Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-17T00:02:25.269Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:02:25.280Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '9960bdef-6fc9-42e2-9315-9723f0fb0255',
+    integrations: { browserstack: [Object] }
+  }
+} to 28462:0
+2026-02-17T00:02:25.281Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:02:26.436Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '9960bdef-6fc9-42e2-9315-9723f0fb0255',
+      integrations: [Object]
+    }
+  }
+] to 28462:0
+2026-02-17T00:02:26.437Z CLI info  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-17T00:02:32.790Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"9960bdef-6fc9-42e2-9315-9723f0fb0255","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Delete Note","test_name":"Delete Note","test_code":"async () => {\n        //Add Note (Use the above)\n\n        //Delete Note\n        const noteTitle = await addNoteScreen.noteTitle.getText();\n        await addNoteScreen.noteTitle.click();\n\n        await addNoteScreen.moreBtn.click();\n        await addNoteScreen.deleteBtn.click();\n        await driver.acceptAlert();\n\n\n        //Check Note in Trash Can\n        await addNoteScreen.menuBtn.click();\n        await addNoteScreen.trashCanBtn.click();\n        await expect(addNoteScreen.trashCanNotes).toHaveText(noteTitle);\n\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Delete Note","test_scopes":["Add Notes"],"test_started_at":"2026-02-17T00:02:25.270Z","automate_session_name":"Add Notes - Delete Note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-17T00:02:32.786Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-17T00:02:32.791Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:02:34.381Z CLI info  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-17T00:02:34.384Z CLI info  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-17T00:02:34.652Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  stopBuild: i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx request={"finished_at":"2026-02-17T00:02:34.382Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-17T00:02:34.653Z CLI info  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-17T00:02:34.843Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  Visit https://automation.browserstack.com/builds/i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx to view build report, insights, and many more debugging information all at one place!
+2026-02-17T00:02:34.847Z CLI info [main]  [alvinalonzo_azyPs7]  [i5adbhwsmro3e4jtzyfbrdeau5a1udchj9khm0wx]  [f9b13a85-0ec9-41cd-98c3-98feb9c9dc79]  Received graceful signal termination, performing cleanup
+2026-02-17T00:12:04.331Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:deviceName":"Google Pixel 5","appium:platformVersion":"11.0","appium:automationName":"UiAutomator2","appium:app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","appium:autoGrantPermissions":true,"wdioService":"9.23.3","accessibility":true}],"isNonBstackA11yWDIO":false,"buildIdentifier":"#${BUILD_NUMBER}","app":"<app-url/path>","browserstackLocal":true,"forcedStop":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameOmitTestTitle":false,"skipSessionStatus":false,"preferScenarioName":false,"skipSessionName":false,"testObservabilityOptions":{"buildName":"bstack-demo","projectName":"BrowserStack Sample","buildTag":["Tag1","Tag2"]},"accessibility":true,"accessibilityOptions":{"wcagVersion":"wcag21a","includeIssueType":{"bestPractice":true,"needsReview":false},"includeTagsInTestingScope":["First"],"excludeTagsInTestingScope":["Twice"]},"percy":true,"percyCaptureMode":"auto","percyOptions":{},"turboscale":false,"testObservability":true,"browserStackLocalOptions":{"forceLocal":true,"localIdentifier":"test"},"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false},"buildName":"bstack-demo","projectName":"BrowserStack Sample","buildTag":["Tag1","Tag2"]}
+2026-02-17T00:12:04.336Z CLI info     Should start debug utility: undefined
+2026-02-17T00:12:04.337Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  Starting testhub from 28686:0
+2026-02-17T00:12:04.338Z CLI info  [alvinalonzo_azyPs7]   [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-17T00:12:04.340Z CLI info  [alvinalonzo_azyPs7]   [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-17T00:12:04.680Z CLI info  [alvinalonzo_azyPs7]   [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-17T00:12:04.680Z CLI info  [alvinalonzo_azyPs7]   [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-17T00:12:04.681Z CLI info  [alvinalonzo_azyPs7]   [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-17T00:12:05.179Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  startBuild: response=atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq
+2026-02-17T00:12:05.182Z CLI info  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-17T00:12:05.400Z CLI info  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-17T00:12:08.157Z CLI info [percy:percy-binary]  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  Percy binary is up to date (ETag unchanged)
+2026-02-17T00:12:08.166Z CLI info  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  [PRODUCTION] Making GET request to http://localhost:5338
+2026-02-17T00:12:12.249Z CLI info  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  [PRODUCTION] Making GET request to http://localhost:5338
+2026-02-17T00:12:15.432Z CLI info [percy:module]  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  onStart: 06edc04e-458c-4fa5-97ff-1c4b637bfb9c isRunning=true
+2026-02-17T00:12:22.300Z CLI info [appautomate:service]  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  Using app: <app-url/path>
+2026-02-17T00:12:25.194Z CLI info [accessibility:module]  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  onDriverInit: 06edc04e-458c-4fa5-97ff-1c4b637bfb9c platformIndex=0
+2026-02-17T00:12:25.195Z CLI info [accessibility:module]  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  onDriverInit: 06edc04e-458c-4fa5-97ff-1c4b637bfb9c platformIndex=0 isSupported=true
+2026-02-17T00:12:25.195Z CLI info [accessibility:module]  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  onDriverInit: platformIndex=0 stored capabilities
+2026-02-17T00:12:25.195Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  Driver initialized as primary driver: platformIndex=0
+2026-02-17T00:12:32.768Z CLI info  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-17T00:12:32.773Z CLI info  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-17T00:12:33.314Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  stopBuild: atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq request={"finished_at":"2026-02-17T00:12:32.770Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-17T00:12:33.317Z CLI info  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-17T00:12:33.516Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  Visit https://automation.browserstack.com/builds/atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq to view build report, insights, and many more debugging information all at one place!
+2026-02-17T00:12:47.722Z CLI info [percy:module]  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  onStop: 06edc04e-458c-4fa5-97ff-1c4b637bfb9c
+2026-02-17T00:12:50.315Z CLI info [main]  [alvinalonzo_azyPs7]  [atxrleqjapzabxckryucetuyjwhhd2mdhgdpi9jq]  [06edc04e-458c-4fa5-97ff-1c4b637bfb9c]  Received graceful signal termination, performing cleanup
+2026-02-17T00:13:59.908Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:deviceName":"Google Pixel 5","appium:platformVersion":"11.0","appium:automationName":"UiAutomator2","appium:app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","appium:autoGrantPermissions":true,"wdioService":"9.23.3","accessibility":true}],"isNonBstackA11yWDIO":false,"buildIdentifier":"1","testObservabilityOptions":{"buildName":"bstack-demo","projectName":"BrowserStack Sample","buildTag":["Tag1","Tag2"]},"accessibility":true,"accessibilityOptions":{"wcagVersion":"wcag21a","includeIssueType":{"bestPractice":true,"needsReview":false},"includeTagsInTestingScope":["First"],"excludeTagsInTestingScope":["Twice"]},"percy":true,"percyCaptureMode":"auto","percyOptions":{},"turboscale":false,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildName":"bstack-demo","projectName":"BrowserStack Sample","buildTag":["Tag1","Tag2"]}
+2026-02-17T00:13:59.909Z CLI info     Should start debug utility: undefined
+2026-02-17T00:13:59.910Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [105bf316-3cf2-4dab-967c-86df4e58aac6]  Starting testhub from 28872:0
+2026-02-17T00:13:59.911Z CLI info  [alvinalonzo_azyPs7]   [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-17T00:13:59.913Z CLI info  [alvinalonzo_azyPs7]   [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-17T00:14:00.331Z CLI info  [alvinalonzo_azyPs7]   [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-17T00:14:00.331Z CLI info  [alvinalonzo_azyPs7]   [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-17T00:14:00.332Z CLI info  [alvinalonzo_azyPs7]   [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-17T00:14:00.908Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [105bf316-3cf2-4dab-967c-86df4e58aac6]  startBuild: response=ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd
+2026-02-17T00:14:00.910Z CLI info  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-17T00:14:01.101Z CLI info  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-17T00:14:02.707Z CLI info [percy:percy-binary]  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  Percy binary is up to date (ETag unchanged)
+2026-02-17T00:14:02.715Z CLI info  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making GET request to http://localhost:5338
+2026-02-17T00:14:06.837Z CLI info  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making GET request to http://localhost:5338
+2026-02-17T00:14:10.909Z CLI info  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making GET request to http://localhost:5338
+2026-02-17T00:14:10.917Z CLI info [percy:module]  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  onStart: 105bf316-3cf2-4dab-967c-86df4e58aac6 isRunning=true
+2026-02-17T00:14:13.111Z CLI info [accessibility:module]  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  onDriverInit: 105bf316-3cf2-4dab-967c-86df4e58aac6 platformIndex=0
+2026-02-17T00:14:13.111Z CLI info [accessibility:module]  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  onDriverInit: 105bf316-3cf2-4dab-967c-86df4e58aac6 platformIndex=0 isSupported=false
+2026-02-17T00:14:13.112Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  Driver initialized as primary driver: platformIndex=0
+2026-02-17T00:14:21.732Z CLI info  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-17T00:14:21.737Z CLI info  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-17T00:14:22.048Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  stopBuild: ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd request={"finished_at":"2026-02-17T00:14:21.734Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-17T00:14:22.049Z CLI info  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-17T00:14:22.221Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  Visit https://automation.browserstack.com/builds/ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd to view build report, insights, and many more debugging information all at one place!
+2026-02-17T00:14:36.117Z CLI info [percy:module]  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  onStop: 105bf316-3cf2-4dab-967c-86df4e58aac6
+2026-02-17T00:14:36.121Z CLI info [main]  [alvinalonzo_azyPs7]  [ltxudco0icuw11ogles5qxt28dfxepfelerkh8yd]  [105bf316-3cf2-4dab-967c-86df4e58aac6]  Received graceful signal termination, performing cleanup
+2026-02-17T00:14:44.752Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:deviceName":"Google Pixel 5","appium:platformVersion":"11.0","appium:automationName":"UiAutomator2","appium:app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","appium:autoGrantPermissions":true,"wdioService":"9.23.3","accessibility":true}],"isNonBstackA11yWDIO":false,"buildIdentifier":"1","testObservabilityOptions":{"buildName":"bstack-demo","projectName":"BrowserStack Sample","buildTag":["Tag1","Tag2"]},"accessibility":true,"accessibilityOptions":{"wcagVersion":"wcag21a","includeIssueType":{"bestPractice":true,"needsReview":false},"includeTagsInTestingScope":["First"],"excludeTagsInTestingScope":["Twice"]},"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildName":"bstack-demo","projectName":"BrowserStack Sample","buildTag":["Tag1","Tag2"]}
+2026-02-17T00:14:44.753Z CLI info     Should start debug utility: undefined
+2026-02-17T00:14:44.754Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [e18563b8-be3f-4042-ad50-c6e3da4689b1]  Starting testhub from 28997:0
+2026-02-17T00:14:44.755Z CLI info  [alvinalonzo_azyPs7]   [e18563b8-be3f-4042-ad50-c6e3da4689b1]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-17T00:14:44.756Z CLI info  [alvinalonzo_azyPs7]   [e18563b8-be3f-4042-ad50-c6e3da4689b1]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-17T00:14:44.946Z CLI info  [alvinalonzo_azyPs7]   [e18563b8-be3f-4042-ad50-c6e3da4689b1]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-17T00:14:44.946Z CLI info  [alvinalonzo_azyPs7]   [e18563b8-be3f-4042-ad50-c6e3da4689b1]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-17T00:14:44.947Z CLI info  [alvinalonzo_azyPs7]   [e18563b8-be3f-4042-ad50-c6e3da4689b1]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-17T00:14:45.584Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [e18563b8-be3f-4042-ad50-c6e3da4689b1]  startBuild: response=q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1
+2026-02-17T00:14:45.586Z CLI info  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-17T00:14:47.326Z CLI info [accessibility:module]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  onDriverInit: e18563b8-be3f-4042-ad50-c6e3da4689b1 platformIndex=0
+2026-02-17T00:14:47.327Z CLI info [accessibility:module]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  onDriverInit: e18563b8-be3f-4042-ad50-c6e3da4689b1 platformIndex=0 isSupported=false
+2026-02-17T00:14:47.327Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  Driver initialized as primary driver: platformIndex=0
+2026-02-17T00:15:11.043Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '79035232-e0b6-4c92-b790-46216c075707',
+    integrations: { browserstack: [Object] }
+  }
+} to 28997:0
+2026-02-17T00:15:11.045Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:15:11.595Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '79035232-e0b6-4c92-b790-46216c075707',
+      integrations: [Object]
+    }
+  }
+] to 28997:0
+2026-02-17T00:15:11.598Z CLI info  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-17T00:15:13.419Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"79035232-e0b6-4c92-b790-46216c075707","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Skip tutorial","test_name":"Skip tutorial","test_code":"async () => {\n        // await $('//*[@text=\"SKIP\"]').click()\n        await addNoteScreen.skipBtn.click();\n        await expect(addNoteScreen.addNoteBtn).toBeDisplayed()\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Skip tutorial","test_scopes":["Add Notes"],"test_started_at":"2026-02-17T00:15:11.021Z","automate_session_name":"Add Notes - Skip tutorial","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-17T00:15:13.415Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-17T00:15:13.420Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:15:13.427Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '510e2e40-513c-47de-9dec-4293de01d883',
+    integrations: { browserstack: [Object] }
+  }
+} to 28997:0
+2026-02-17T00:15:13.428Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:15:13.596Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '510e2e40-513c-47de-9dec-4293de01d883',
+      integrations: [Object]
+    }
+  }
+] to 28997:0
+2026-02-17T00:15:13.597Z CLI info  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-17T00:15:22.908Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"510e2e40-513c-47de-9dec-4293de01d883","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - add a note, save changes & verify note","test_name":"add a note, save changes & verify note","test_code":"async () => {\n        await addNoteScreen.addNoteBtn.click()\n        await addNoteScreen.noteTypeBtn.click();\n        await expect(addNoteScreen.editText).toBeDisplayed();\n\n        await addNoteScreen.titleTextField.setValue(\"Fav Anime List\");\n        \n        //add Note value\n\n        await addNoteScreen.noteTextField.setValue(\"Naruto\\nOnePiece\\nAOT\");\n        await driver.back();\n\n        await driver.back();\n        await expect(addNoteScreen.editBtn).toBeDisplayed();\n         await driver.back();\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - add a note, save changes & verify note","test_scopes":["Add Notes"],"test_started_at":"2026-02-17T00:15:13.420Z","automate_session_name":"Add Notes - add a note, save changes & verify note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-17T00:15:22.904Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-17T00:15:22.909Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:15:22.919Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'c0ce5b09-3ebd-4232-9fb3-1e63e1714293',
+    integrations: { browserstack: [Object] }
+  }
+} to 28997:0
+2026-02-17T00:15:22.920Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:15:23.598Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'c0ce5b09-3ebd-4232-9fb3-1e63e1714293',
+      integrations: [Object]
+    }
+  }
+] to 28997:0
+2026-02-17T00:15:23.599Z CLI info  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-17T00:15:30.949Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"c0ce5b09-3ebd-4232-9fb3-1e63e1714293","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Delete Note","test_name":"Delete Note","test_code":"async () => {\n        //Add Note (Use the above)\n\n        //Delete Note\n        const noteTitle = await addNoteScreen.noteTitle.getText();\n        await addNoteScreen.noteTitle.click();\n\n        await addNoteScreen.moreBtn.click();\n        await addNoteScreen.deleteBtn.click();\n        await driver.acceptAlert();\n\n\n        //Check Note in Trash Can\n        await addNoteScreen.menuBtn.click();\n        await addNoteScreen.trashCanBtn.click();\n        await expect(addNoteScreen.trashCanNotes).toHaveText(noteTitle);\n\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Delete Note","test_scopes":["Add Notes"],"test_started_at":"2026-02-17T00:15:22.909Z","automate_session_name":"Add Notes - Delete Note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-17T00:15:30.945Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-17T00:15:30.949Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:15:32.604Z CLI info  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-17T00:15:32.608Z CLI info  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-17T00:15:33.952Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  stopBuild: q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1 request={"finished_at":"2026-02-17T00:15:32.606Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-17T00:15:33.953Z CLI info  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-17T00:15:34.128Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  Visit https://automation.browserstack.com/builds/q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1 to view build report, insights, and many more debugging information all at one place!
+2026-02-17T00:15:34.133Z CLI info [main]  [alvinalonzo_azyPs7]  [q171nvcbzk1u0jdavymhgx7ytp8e0oiqmy96wkb1]  [e18563b8-be3f-4042-ad50-c6e3da4689b1]  Received graceful signal termination, performing cleanup
+2026-02-17T00:18:20.245Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:deviceName":"Google Pixel 5","appium:platformVersion":"11.0","appium:automationName":"UiAutomator2","appium:app":"bs://3e805ee478b5b904ec0d8a3eb4fd5065de721105","appium:autoGrantPermissions":true,"wdioService":"9.23.3","accessibility":true}],"isNonBstackA11yWDIO":false,"buildIdentifier":"1","testObservabilityOptions":{"buildName":"bstack-demo","projectName":"BrowserStack Sample","buildTag":["Tag1","Tag2"]},"accessibility":true,"accessibilityOptions":{"wcagVersion":"wcag21a","includeIssueType":{"bestPractice":true,"needsReview":false},"includeTagsInTestingScope":["First"],"excludeTagsInTestingScope":["Twice"]},"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildName":"bstack-demo","projectName":"BrowserStack Sample","buildTag":["Tag1","Tag2"]}
+2026-02-17T00:18:20.247Z CLI info     Should start debug utility: undefined
+2026-02-17T00:18:20.248Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [3c8bd701-bd39-4440-b785-4543bb063b8f]  Starting testhub from 29287:0
+2026-02-17T00:18:20.250Z CLI info  [alvinalonzo_azyPs7]   [3c8bd701-bd39-4440-b785-4543bb063b8f]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-17T00:18:20.253Z CLI info  [alvinalonzo_azyPs7]   [3c8bd701-bd39-4440-b785-4543bb063b8f]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-17T00:18:20.666Z CLI info  [alvinalonzo_azyPs7]   [3c8bd701-bd39-4440-b785-4543bb063b8f]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-17T00:18:20.666Z CLI info  [alvinalonzo_azyPs7]   [3c8bd701-bd39-4440-b785-4543bb063b8f]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-17T00:18:20.667Z CLI info  [alvinalonzo_azyPs7]   [3c8bd701-bd39-4440-b785-4543bb063b8f]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-17T00:18:21.187Z CLI info [testhub:module]  [alvinalonzo_azyPs7]   [3c8bd701-bd39-4440-b785-4543bb063b8f]  startBuild: response=wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux
+2026-02-17T00:18:21.189Z CLI info  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-17T00:18:23.193Z CLI info [accessibility:module]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  onDriverInit: 3c8bd701-bd39-4440-b785-4543bb063b8f platformIndex=0
+2026-02-17T00:18:23.193Z CLI info [accessibility:module]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  onDriverInit: 3c8bd701-bd39-4440-b785-4543bb063b8f platformIndex=0 isSupported=false
+2026-02-17T00:18:23.194Z CLI info [sdk:service]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  Driver initialized as primary driver: platformIndex=0
+2026-02-17T00:18:50.360Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '63b4dad9-d95e-4a6e-a0f6-3e942aadfae7',
+    integrations: { browserstack: [Object] }
+  }
+} to 29287:0
+2026-02-17T00:18:50.363Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:18:51.195Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '63b4dad9-d95e-4a6e-a0f6-3e942aadfae7',
+      integrations: [Object]
+    }
+  }
+] to 29287:0
+2026-02-17T00:18:51.196Z CLI info  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-17T00:18:52.723Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"63b4dad9-d95e-4a6e-a0f6-3e942aadfae7","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Skip tutorial","test_name":"Skip tutorial","test_code":"async () => {\n        // await $('//*[@text=\"SKIP\"]').click()\n        await addNoteScreen.skipBtn.click();\n        await expect(addNoteScreen.addNoteBtn).toBeDisplayed()\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Skip tutorial","test_scopes":["Add Notes"],"test_started_at":"2026-02-17T00:18:50.335Z","automate_session_name":"Add Notes - Skip tutorial","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-17T00:18:52.719Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-17T00:18:52.725Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:18:52.732Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'ead068d1-ba4f-4e17-ba10-0acb340f765c',
+    integrations: { browserstack: [Object] }
+  }
+} to 29287:0
+2026-02-17T00:18:52.733Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:18:53.195Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'ead068d1-ba4f-4e17-ba10-0acb340f765c',
+      integrations: [Object]
+    }
+  }
+] to 29287:0
+2026-02-17T00:18:53.195Z CLI info  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-17T00:19:02.047Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"ead068d1-ba4f-4e17-ba10-0acb340f765c","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - add a note, save changes & verify note","test_name":"add a note, save changes & verify note","test_code":"async () => {\n        await addNoteScreen.addNoteBtn.click()\n        await addNoteScreen.noteTypeBtn.click();\n        await expect(addNoteScreen.editText).toBeDisplayed();\n\n        await addNoteScreen.titleTextField.setValue(\"Fav Anime List\");\n        \n        //add Note value\n\n        await addNoteScreen.noteTextField.setValue(\"Naruto\\nOnePiece\\nAOT\");\n        await driver.back();\n\n        await driver.back();\n        await expect(addNoteScreen.editBtn).toBeDisplayed();\n         await driver.back();\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - add a note, save changes & verify note","test_scopes":["Add Notes"],"test_started_at":"2026-02-17T00:18:52.724Z","automate_session_name":"Add Notes - add a note, save changes & verify note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-17T00:19:02.043Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-17T00:19:02.047Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:19:02.057Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '4e96191f-fa84-4317-96d7-d6f9108b8e8b',
+    integrations: { browserstack: [Object] }
+  }
+} to 29287:0
+2026-02-17T00:19:02.058Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:19:03.198Z CLI info [testhub:request-queue-handler]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '4e96191f-fa84-4317-96d7-d6f9108b8e8b',
+      integrations: [Object]
+    }
+  }
+] to 29287:0
+2026-02-17T00:19:03.200Z CLI info  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-17T00:19:09.880Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.3","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"4e96191f-fa84-4317-96d7-d6f9108b8e8b","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Add Notes - Delete Note","test_name":"Delete Note","test_code":"async () => {\n        //Add Note (Use the above)\n\n        //Delete Note\n        const noteTitle = await addNoteScreen.noteTitle.getText();\n        await addNoteScreen.noteTitle.click();\n\n        await addNoteScreen.moreBtn.click();\n        await addNoteScreen.deleteBtn.click();\n        await driver.acceptAlert();\n\n\n        //Check Note in Trash Can\n        await addNoteScreen.menuBtn.click();\n        await addNoteScreen.trashCanBtn.click();\n        await expect(addNoteScreen.trashCanNotes).toHaveText(noteTitle);\n\n    }","test_location":"test/specs/android/add-note-screen.spec.js","test_scope":"Add Notes - Delete Note","test_scopes":["Add Notes"],"test_started_at":"2026-02-17T00:19:02.047Z","automate_session_name":"Add Notes - Delete Note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-17T00:19:09.876Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-17T00:19:09.880Z CLI error [TEST REPORTING AND ANALYTICS:service]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3744c6 (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2026-02-17T00:19:11.563Z CLI info  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-17T00:19:11.568Z CLI info  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-17T00:19:11.863Z CLI info [testhub:module]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  stopBuild: wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux request={"finished_at":"2026-02-17T00:19:11.565Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-17T00:19:11.864Z CLI info  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-17T00:19:12.087Z CLI info [TEST REPORTING AND ANALYTICS:module]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  Visit https://automation.browserstack.com/builds/wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux to view build report, insights, and many more debugging information all at one place!
+2026-02-17T00:19:12.092Z CLI info [main]  [alvinalonzo_azyPs7]  [wbykzlqi66atfxlqcueongdvbrepzlu5bvuhmvux]  [3c8bd701-bd39-4440-b785-4543bb063b8f]  Received graceful signal termination, performing cleanup
